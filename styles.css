@@ -1,0 +1,22 @@
+/* Change background color */
+body {
+  background-color: #f0f8ff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Center the main heading */
+h1 {
+    text-align: center;
+}
+
+/* Add padding around the image */
+img {
+    padding: 10px;
+    border: 2px solid #0000ff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Change link color on hover */
+a:hover {
+    color: red;
+}
