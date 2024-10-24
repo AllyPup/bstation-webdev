@@ -1,12 +1,24 @@
 <!DOCTYPE  html>
 <html>
+    
     <head>
         <title>Web Dev - Lab 01</title>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <main>
-        <body>
-         <h1 style="color: lightcoral;">Welcome to the Web Development Course at BrainStation!</h1>
+
+    <body>
+        <header>
+            <h1 style="color: lightcoral;">Welcome to the Web Development Course at BrainStation!</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+         
+            
+         <main>
             <section>
                 <h2>Today's Schedule:</h2>
                     <ul>
@@ -28,6 +40,25 @@
                     </figure>
             </section>
 
+            <section class="flex-container">
+                <div class="flex-item">
+                    <h3>Web Development</h3>
+                    <img src="https://via.placeholder.com/100" alt="placeholder img 1">
+                    <p>Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).</p>
+                </div>
+                <div class="flex-item">
+                    <h3>HTML</h3>
+                    <img src="https://via.placeholder.com/100" alt="placeholder img 2">
+                    <p>HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+                </div>
+                <div class="flex-item">
+                    <h3>CSS</h3>
+                    <img src="https://via.placeholder.com/100" alt="placeholder img 3">
+                    <p>CSS is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.</p>
+                </div>
+            </section>
+        </main>
+
             <footer>
                 <address>
                     <p>Created by: Elianna Bentz</p>
@@ -35,6 +66,5 @@
                 </address>
                     <p><time datetime="2024-10-11">Last updated: October 11, 2024</time></p>
             </footer>
-        </body>
-    </main>
+    </body>
 </html>
